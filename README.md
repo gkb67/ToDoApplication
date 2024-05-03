@@ -1,12 +1,12 @@
 **TODO LIST APPLICATION**
 **Written in TestCafe Framework**
-- Design Pattern: Page Object Model
+- Design Pattern: _Page Object Model_
   - Page object model is a design pattern to organize automated tests to separate the web pages into another class. It enhances the code readability and reusability and makes maintance easier.
-- Language: Javascript
+- Language: _Javascript_
 
 **SET UP**
-- Required softwares: Node.js and npm
-- Clone the project FROM [**https://github.com/gkb67/ToDoApplication**](https://github.com/gkb67/ToDoApplication.git)
+- Required softwares: `Node.js` and `npm`
+- Clone the project from  [**https://github.com/gkb67/ToDoApplication**](https://github.com/gkb67/ToDoApplication.git)
 - Install the dependencies: `npm install`
 
 **Dependencies**
