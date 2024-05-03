@@ -1,0 +1,27 @@
+{
+  "name": "todoapplication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:positiveTests": "testcafe chrome tests/positiveTests.js --skip-js-errors --reporter html:reports/html-reports/report.html",
+    "test:negativeTests": "testcafe chrome tests/negativeTests.js --skip-js-errors --reporter html:reports/html-reports/report.html",
+    "test:allTests": "testcafe chrome tests/*.js --skip-js-errors --reporter html:reports/html-reports/report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.6.0",
+    "gherkin-testcafe": "^7.2.0",
+    "testcafe": "^3.6.0",
+    "testcafe-cucumber-steps": "^1.21.0"
+  },
+  "dependencies": {
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
