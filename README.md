@@ -24,10 +24,10 @@
 - **Positive tests**
   - Scenario 1 – Verify that website is opened succussfully
   - Scenario 2 - Verify that user can add a new task to the list
-  - Scenario 2 – Verify that user can edit an existing task in the list
-  - Scenario 3 – Verify that user can delete a task from the list
-  - Scenario 4 - Verify that user can complete a task in the list
-  - Scenario 5 - Verify that user can complete and clear a task in the list
+  - Scenario 3 – Verify that user can edit an existing task in the list
+  - Scenario 4 – Verify that user can delete a task from the list
+  - Scenario 5 - Verify that user can complete a task in the list
+  - Scenario 6 - Verify that user can complete and clear a task in the list
 - **Negative tests**
   - Scenario 1 - Verify that completed task is not shown in the active task list
   - Scenario 2 - Verify that active task is not shown in the completed task list
